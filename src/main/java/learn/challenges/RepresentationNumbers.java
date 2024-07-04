@@ -1,7 +1,7 @@
 package learn.challenges;
 
 /**
- * https://gemini.google.com/app/ced4ef6e5d4cee51?hl=ko
+ * https://school.programmers.co.kr/learn/courses/30/lessons/12911
  *
  * Time Complexity: O(√n)
  * Space Complexity:  O(n)
