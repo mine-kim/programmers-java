@@ -5,8 +5,8 @@ import java.util.Arrays;
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/42885
  *
- * Time Complexity: O(n log n) Arrays.sort 사용
- * Space Complexity: O(log n) Arrays.sort 사용
+ * Time Complexity: O(n log n) 정렬
+ * Space Complexity: O(log n) 정렬
  */
 public class Lifeboat {
     public int solution(int[] people, int limit) {
@@ -29,6 +29,6 @@ public class Lifeboat {
     }
     public static void main(String[] args) {
         Lifeboat solution = new Lifeboat();
-        solution.solution(new int[]{70, 50, 80}, 100);
+        solution.solution(new int[]{70, 50, 80, 50}, 100);
     }
 }

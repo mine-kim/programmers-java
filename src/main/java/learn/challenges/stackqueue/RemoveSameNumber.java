@@ -23,6 +23,7 @@ public class RemoveSameNumber {
 
     public static void main(String[] args) {
         RemoveSameNumber solution = new RemoveSameNumber();
+        solution.solution(new int[]{4,4,3,3,3});
         solution.solution(new int[]{1,1,3,3,0,1,1});
     }
 }

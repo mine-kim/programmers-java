@@ -12,7 +12,7 @@ public class NumberK {
     public int[] solution(int[] array, int[][] commands) {
         int[] answer = new int[commands.length];
         for (int i = 0; i < commands.length; i++) {
-            int[] list = Arrays.copyOfRange(array, commands[i][0]-1, commands[i][1]);
+            int[] list = Arrays.copyOfRange(array, commands[i][0]-1, commands[i][1]); // i~j번째 숫자로 배열 생성
             Arrays.sort(list);
             answer[i] = list[commands[i][2]-1];
         }

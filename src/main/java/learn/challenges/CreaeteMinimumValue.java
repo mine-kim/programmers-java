@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/12941
+ *
+ * Time Complexity: O(n log n) 정렬
+ * Space Complexity: O(1) 또는 O(log N) 정렬 과정에서 추가적인 공간이 필요할수 있음
  */
 public class CreaeteMinimumValue {
     public int solution(int []A, int []B) {

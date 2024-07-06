@@ -5,24 +5,22 @@ import java.util.Arrays;
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/42747
  *
- * Time Complexity: O(m * n log n)
- * Space Complexity: O(n)
+ * Time Complexity: O(n log n) 정렬
+ * Space Complexity: O(1) 문제의 크기가 1,000 이하로 제한되어 있으므로 상수 공간으로 간주
  */
 public class HIndex {
     public int solution(int[] citations) {
         Arrays.sort(citations);
 
         int hIndex = 0;
-        for (int i = citations.length-1; i >= 0; i--) {
-            int h = citations.length - i;
+        for (int i = 0; i < citations.length; i++) {
+            int h = citations.length - i; // 현재 논문 수에서 i를 뺀 값을 H-Index 후보로 설정
             if (citations[i] >= h) {
-                hIndex = h;
-            } else {
-                break;
+                return h; // H-Index 조건 만족
             }
         }
 
-        return hIndex;
+        return 0; // H-Index가 0인 경우
     }
 
     public static void main(String[] args) {

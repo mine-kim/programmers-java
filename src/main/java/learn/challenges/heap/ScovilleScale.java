@@ -10,22 +10,23 @@ import java.util.PriorityQueue;
  */
 public class ScovilleScale {
     public int solution(int[] scoville, int K) {
-        int answer = 0;
+        int count = 0;
         PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
         for (int i : scoville) priorityQueue.offer(i);
 
         while (priorityQueue.peek() < K) {
-            if (priorityQueue.size() == 1) return -1;
-            int row = priorityQueue.poll();
-            int high = priorityQueue.poll();
+            if (priorityQueue.size() == 1) return -1; // 스코빌 지수를 만들 수 없는 경우
+            int row = priorityQueue.poll(); // 가장 맵지 않은 음식
+            int high = priorityQueue.poll(); // 2번째로 맵지 않은 음식
             priorityQueue.offer(row + high * 2);
-            answer++;
+            count++;
         }
-        return answer;
+        return count;
     }
 
     public static void main(String[] args) {
         ScovilleScale solution = new ScovilleScale();
+        solution.solution(new int[]{1, 2}, 6);
         solution.solution(new int[]{1, 2, 3, 9, 10, 12}, 200);
     }
 }

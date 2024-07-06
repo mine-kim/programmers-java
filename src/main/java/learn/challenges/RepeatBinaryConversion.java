@@ -2,6 +2,9 @@ package learn.challenges;
 
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/70129
+ *
+ * Time Complexity: O(logN) 반복
+ * Space Complexity: O(logN) 배열, 문자열 변환
  */
 public class RepeatBinaryConversion {
     public int[] solution(String s) {

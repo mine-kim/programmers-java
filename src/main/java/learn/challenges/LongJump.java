@@ -9,13 +9,13 @@ package learn.challenges;
 public class LongJump {
     long answer = 0;
     public long solution(int n) {
-        int[] list = new int[n+2];
-        list[0] = 0;
-        list[1] = 1;
-        for (int i = 2; i < n+2; i++) {
-            list[i] = (list[i -1] + list[i -2]) % 1234567;
+        long[] dp = new long[n + 1]; // dp[i]: i개의 칸을 뛰는 방법의 수
+        dp[0] = 1; // 초기값 설정
+        dp[1] = 1;
+        for (int i = 2; i <= n; i++) {
+            dp[i] = (dp[i - 1] + dp[i - 2]) % 1234567; // 피보나치
         }
-        return list[n+1];
+        return dp[n];
     }
 
     public static void main(String[] args) {

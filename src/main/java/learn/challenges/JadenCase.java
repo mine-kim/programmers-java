@@ -12,7 +12,6 @@ public class JadenCase {
     public String solution(String s) {
         boolean isFisrt = true;
         StringBuilder sb = new StringBuilder();
-        int i = 0;
         for (char c : s.toCharArray()) {
             if (c == ' ') {
                 sb.append(c);

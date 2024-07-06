@@ -2,6 +2,9 @@ package learn.challenges;
 
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/12939
+ *
+ * Time Complexity: O(n) 문자열 분할, 반복문
+ * Space Complexity: O(n) 배열
  */
 public class MaximumAndMinimumValues {
     public String solution(String s) {

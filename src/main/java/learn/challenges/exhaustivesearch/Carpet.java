@@ -10,8 +10,8 @@ public class Carpet {
     public int[] solution(int brown, int yellow) {
         int[] answer = new int[2];
         for (int x = 3; x < Math.sqrt(brown + yellow); x++) {
-            int y = (brown - x * 2 + 4) / 2;
-            if (x * y == brown + yellow) {
+            int y = (brown - x * 2 + 4) / 2; // brown = 전체 둘레의 길이이므로, 2x + 2y - 4
+            if (x * y == brown + yellow) { // 두수의 곱
                 answer[0] = Math.max(x ,y);
                 answer[1] = Math.min(x, y);
                 break;

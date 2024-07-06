@@ -2,9 +2,22 @@ package learn.challenges;
 
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/12945
+ *
+ * Time Complexity: O(n) 배열 생성, 반복문
+ * Space Complexity: O(n) 배열
  */
 public class FibonacciNumber {
     public int solution(int n) {
+        int a = 0, b = 1, c = 0;
+        for (int i = 2; i <= n; i++) {
+            c = (a + b) % 1234567;
+            a = b;
+            b = c;
+        }
+        return b;
+    }
+
+    public int solution2(int n) {
         int answer = 0;
         int[] data = new int[n+1];
         data[0] = 0;

@@ -1,7 +1,4 @@
 package learn.challenges.exhaustivesearch;
-
-import java.util.ArrayList;
-
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/84512
  *

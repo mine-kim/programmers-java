@@ -12,10 +12,10 @@ public class MinimumRectangle {
         int x = 0;
         int y = 0;
         for(int[] size : sizes) {
-            x = Math.max(x, Math.min(size[0], size[1]));
-            y = Math.max(y, Math.max(size[0], size[1]));
+            x = Math.max(x, Math.min(size[0], size[1])); // 명함의 더 긴 변을 가로로 간주
+            y = Math.max(y, Math.max(size[0], size[1])); // 명함의 더 짧은 변을 세로로 간주
         }
-        return x * y;
+        return x * y; // 지갑 크기
     }
 
     public static void main(String[] args) {

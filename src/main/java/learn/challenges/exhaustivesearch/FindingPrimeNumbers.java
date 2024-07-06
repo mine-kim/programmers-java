@@ -21,7 +21,7 @@ public class FindingPrimeNumbers {
 
     private void dfs(String current, String numbers, boolean[] visited) {
         if (!current.isEmpty()) {
-           if(isPrime(Integer.parseInt(current))) {
+           if(isPrime(Integer.parseInt(current))) { // 소수 판별
                primeSet.add(Integer.parseInt(current));
            }
         }
