@@ -1,20 +1,52 @@
-# Leetcode solutions in Java
+# Programmers solutions in Java
 
-Problems | Difficulty |
---- |------------|
-[Singly Linked List](https://leetcode.com/explore/learn/card/linked-list/209/singly-linked-list/1290/) | Medium     |
-[Linked List Cycle](https://leetcode.com/explore/learn/card/linked-list/214/two-pointer-technique/1212/) | Easy       |
-[Linked List Cycle II](https://leetcode.com/explore/learn/card/linked-list/214/two-pointer-technique/1214/) | Medium     |
-[Intersection of Two Linked Lists](https://leetcode.com/explore/learn/card/linked-list/214/two-pointer-technique/1215/) | Easy     |
-[Reverse Linked List](https://leetcode.com/explore/learn/card/linked-list/219/classic-problems/1205/) | Easy |
-[Remove Linked List Elements](https://leetcode.com/explore/learn/card/linked-list/219/classic-problems/1207/) | Easy |
-[Odd Even Linked List](https://leetcode.com/explore/learn/card/linked-list/219/classic-problems/1208/) | Medium |
-[Doubly Linked List](https://leetcode.com/explore/learn/card/linked-list/210/doubly-linked-list/1294/) | Medium |
-[Merge Two Sorted Lists](https://leetcode.com/explore/learn/card/linked-list/213/conclusion/1227/)| Easy |
-[Max Consecutive Ones](https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3238/) | Easy |
-[Find Numbers with Even Number of Digits](https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3237/) | Easy |
-[Squares of a Sorted Array](https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3240/) | Easy |
-[Duplicate Zeros](https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3245/) | Easy |
-[Merge Sorted Array](https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3253/)  | Easy |
-[Remove Element](https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3247/) | Easy |
-[Remove Duplicates from Sorted Array](https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3248/) | Easy |
+Problems | Difficulty | 
+--- |-----------|
+[GreaterCombination.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv0%2FGreaterCombination.java) | level0     |
+[FindWord.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv1%2FFindWord.java) | level1    |
+[HarshadNumber.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv1%2FHarshadNumber.java) | level1    |
+[JumpAndTeleport.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv1%2FJumpAndTeleport.java) | level1    |
+[Cache.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv2%2FCache.java) | level2    |
+[CreaeteMinimumValue.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv2%2FCreaeteMinimumValue.java) | level2    |
+[DiscountEvent.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv2%2FDiscountEvent.java) | level2    |
+[ExpectedBracket.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv2%2FExpectedBracket.java) | level2    |
+[FibonacciNumber.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv2%2FFibonacciNumber.java) | level2    |
+[JadenCase.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv2%2FJadenCase.java) | level2    |
+[LeastCommonMultiple.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv2%2FLeastCommonMultiple.java) | level2    |
+[LongJump.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv2%2FLongJump.java) | level2    |
+[MaximumAndMinimumValues.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv2%2FMaximumAndMinimumValues.java) | level2    |
+[N2ArraySlice.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv2%2FN2ArraySlice.java) | level2    |
+[NextBigNumber.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv2%2FNextBigNumber.java) | level2    |
+[PickingTangerine.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv2%2FPickingTangerine.java) | level2    |
+[RepeatBinaryConversion.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv2%2FRepeatBinaryConversion.java) | level2    |
+[RepresentationNumbers.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv2%2FRepresentationNumbers.java) | level2    |
+[RotateParentheses.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv2%2FRotateParentheses.java) | level2    |
+[SumConsecutiveSequences.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv2%2FSumConsecutiveSequences.java) | level2    |
+[ToRemoveByPairing.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv2%2FToRemoveByPairing.java) | level2    |
+[WordChain.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fcourses%2Flv2%2FWordChain.java) | level2    |
+[TargetNumber.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fdfsnbfs%2Flv2%2FTargetNumber.java) | level2    |
+[Network.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fdfsnbfs%2Flv3%2FNetwork.java) | level3    |
+[MinimumRectangle.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fexhaustivesearch%2Flv1%2FMinimumRectangle.java) | level1    |
+[Carpet.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fexhaustivesearch%2Flv2%2FCarpet.java) | level2    |
+[DividingGrid.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fexhaustivesearch%2Flv2%2FDividingGrid.java) | level2    |
+[Dungeons.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fexhaustivesearch%2Flv2%2FDungeons.java) | level2    |
+[FindingPrimeNumbers.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fexhaustivesearch%2Flv2%2FFindingPrimeNumbers.java) | level2    |
+[MathTest.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fexhaustivesearch%2Flv2%2FMathTest.java) | level2    |
+[VowelDictionary.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fexhaustivesearch%2Flv2%2FVowelDictionary.java) | level2    |
+[Uniform.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fgreedy%2Flv1%2FUniform.java) | level1    |
+[Lifeboat.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fgreedy%2Flv2%2FLifeboat.java) | level2    |
+[MakingBigNumbers.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fgreedy%2Flv2%2FMakingBigNumbers.java) | level2    |
+[AnUnsuccessfulRunner.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fhash%2Flv1%2FAnUnsuccessfulRunner.java) | level1    |
+[Pokemon.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fhash%2Flv1%2FPokemon.java) | level1    |
+[Clothes.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fhash%2Flv2%2FClothes.java) | level2    |
+[ListOfPhoneNumbers.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fhash%2Flv2%2FListOfPhoneNumbers.java) | level2    |
+[BestAlbum.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fhash%2Flv3%2FBestAlbum.java) | level3    |
+[ScovilleScale.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fheap%2Flv2%2FScovilleScale.java) | level2    |
+[DiskController.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fheap%2Flv3%2FDiskController.java) | level3    |
+[NumberK.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fsort%2Flv1%2FNumberK.java) | level1    |
+[HIndex.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fsort%2Flv2%2FHIndex.java) | level2    |
+[TheLargestNumber.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fsort%2Flv2%2FTheLargestNumber.java) | level2    |
+[RemoveSameNumber.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fstackqueue%2Flv1%2FRemoveSameNumber.java) | level1    |
+[CorrectParentheses.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fstackqueue%2Flv2%2FCorrectParentheses.java) | level2    |
+[FunctionDevelopment.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fstackqueue%2Flv2%2FFunctionDevelopment.java) | level2    |
+[Process.java](src%2Fmain%2Fjava%2Flearn%2Fchallenges%2Fstackqueue%2Flv2%2FProcess.java) | level2    |
