@@ -1,8 +1,5 @@
 package learn.challenges.courses.lv3;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/43105
  * 제목: 정수 삼각형
