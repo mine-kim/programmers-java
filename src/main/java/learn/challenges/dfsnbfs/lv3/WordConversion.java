@@ -6,7 +6,7 @@ import java.util.*;
  * https://school.programmers.co.kr/learn/courses/30/lessons/43163
  * 제목: 단어 변환
  *
- * Time Complexity: O(n^2 * L) n개의 단어에 대해 총 n번의 비교, 단어길이 L
+ * Time Complexity: O(n^2 * L)  BFS의 각 단계에서 최대 n개의 단어 탐색, inNext 함수는 단어길이 L만큼
  * Space Complexity: O(n * L) 큐에 저장되는 각 단어의 길이는 L이므로, 큐에 저장된 모든 문자열의 공간 복잡도
  *
  */

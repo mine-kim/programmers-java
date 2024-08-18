@@ -24,7 +24,6 @@ public class Dungeons {
                 dfs(k-dungeons[i][1], dungeons, visited,  count + 1);
                 visited[i] = false;
             }
-
         }
     }
 

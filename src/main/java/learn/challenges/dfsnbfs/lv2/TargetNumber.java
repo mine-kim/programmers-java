@@ -4,7 +4,7 @@ package learn.challenges.dfsnbfs.lv2;
  * https://school.programmers.co.kr/learn/courses/30/lessons/43165
  * 제목: 타겟 넘버
  *
- * Time Complexity: O(2^n) DFS 탐색
+ * Time Complexity: O(2^n) n은 numbers의 길이,각 숫자에 대한 선택지가 2가지이므로 가능한 모든 경우의 수
  * Space Complexity: O(n) DFS에서 최대깊이까지 재귀 호출이 발생하며 numbers의 길이 n
  *
  */

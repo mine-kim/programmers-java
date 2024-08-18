@@ -18,7 +18,7 @@ public class Uniform {
         for (int l : lost) lostSet.add(l);
         for (int r : reserve) reserveSet.add(r);
 
-        // 여벌 체육복을 가져왔지만 도난당한 학생 처리
+        // 도난당했지만 여벌 체육복을 가져온 학생 리스트
         HashSet<Integer> intersection = new HashSet<>(lostSet);
         intersection.retainAll(reserveSet);
 
@@ -74,7 +74,7 @@ public class Uniform {
 
     public static void main(String[] args) {
         Uniform solution = new Uniform();
-        solution.solution1(5, new int[]{2, 4}, new int[]{1, 2, 5});    // 5
+        solution.solution(5, new int[]{2, 4}, new int[]{1, 2, 5});    // 5
         solution.solution(5, new int[]{2, 4}, new int[]{3});  // 4
         solution.solution(5, new int[]{4, 5}, new int[]{3, 4});  // 4
         solution.solution(5, new int[]{1, 2}, new int[]{2, 3});  // 4

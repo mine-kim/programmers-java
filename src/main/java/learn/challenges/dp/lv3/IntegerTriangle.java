@@ -1,4 +1,6 @@
-package learn.challenges.courses.lv3;
+package learn.challenges.dp.lv3;
+
+import java.util.Arrays;
 
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/43105
@@ -34,8 +36,23 @@ public class IntegerTriangle {
         return answer;
     }
 
+    /**
+     * Time Complexity: O(n^2) (삼각형의 모든 요소를 한 번씩 탐색하므로)
+     * Space Complexity: O(1) (삼각형 배열을 in-place로 수정하므로)
+     */
+    public int solution2(int[][] triangle) {
+        for (int i = 1; i < triangle.length; i++) {
+            triangle[i][0] += triangle[i-1][0];
+            triangle[i][i] += triangle[i-1][i-1];
+            for (int j = 1; j < i; j++)
+                triangle[i][j] += Math.max(triangle[i-1][j-1], triangle[i-1][j]);
+        }
+
+        return Arrays.stream(triangle[triangle.length-1]).max().getAsInt();
+    }
+
     public static void main(String[] args) {
         IntegerTriangle solution = new IntegerTriangle();
-        System.out.println(solution.solution(new int[][]{{7}, {3, 8}, {8, 1, 0}, {2, 7, 4, 4}, {4, 5, 2, 6, 5}}));
+        System.out.println(solution.solution2(new int[][]{{7}, {3, 8}, {8, 1, 0}, {2, 7, 4, 4}, {4, 5, 2, 6, 5}}));
     }
 }

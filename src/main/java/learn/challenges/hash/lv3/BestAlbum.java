@@ -34,16 +34,14 @@ public class BestAlbum {
         }
 
         // 장르별 재생 횟수 내림차순 정렬
-        List<Map.Entry<String, Long>> collect = genresSum.entrySet().stream().sorted((o1, o2) -> {
-            return -(o1.getValue().compareTo(o2.getValue()));
-        }).collect(Collectors.toList());
+        List<Map.Entry<String, Long>> collect = genresSum.entrySet().stream()
+                .sorted((o1, o2) -> -(o1.getValue().compareTo(o2.getValue())))
+                .toList();
 
         for (int i = 0; i < genresSum.size(); i++) {
             ArrayList<int[]> temp = memo.get(collect.get(i).getKey());
             // 장르 내에서 재생 횟수 내림차순 정렬
-            Collections.sort(temp, (o1, o2) -> {
-                return -(o1[1] - o2[1]);
-            });
+            temp.sort((o1, o2) -> -(o1[1] - o2[1]));
             // 최대 2개만 저장
             for(int j = 0; j < temp.size(); j++){
                 if(j == 2) break;

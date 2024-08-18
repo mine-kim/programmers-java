@@ -4,7 +4,7 @@ package learn.challenges.dfsnbfs.lv3;
  * https://school.programmers.co.kr/learn/courses/30/lessons/43162
  * 제목: 네트워크
  *
- * Time Complexity:  O(n^2) 각 컴터 최대 한번 방문
+ * Time Complexity: O(n^2) 각 컴퓨터에 대해 n개의 연결을 확인
  * Space Complexity: O(n) visited 배열, 재귀호출 스택
  *
  */
