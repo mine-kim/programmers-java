@@ -1,4 +1,4 @@
-package learn.challenges.courses.lv2;
+package learn.challenges.stackqueue.lv2;
 
 import java.util.*;
 /**

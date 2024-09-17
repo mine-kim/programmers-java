@@ -1,4 +1,4 @@
-package learn.challenges.courses.lv2;
+package learn.challenges.dfsnbfs.lv2;
 
 import java.util.LinkedList;
 import java.util.Queue;

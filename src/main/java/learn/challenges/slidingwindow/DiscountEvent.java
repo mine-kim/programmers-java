@@ -1,9 +1,4 @@
-package learn.challenges.courses.lv2;
-
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Queue;
+package learn.challenges.slidingwindow;
 
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/131127

@@ -1,4 +1,4 @@
-package learn.challenges.courses.lv2;
+package learn.challenges.mathematics;
 
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/12953

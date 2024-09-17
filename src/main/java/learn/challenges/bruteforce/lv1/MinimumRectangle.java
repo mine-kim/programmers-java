@@ -1,4 +1,4 @@
-package learn.challenges.exhaustivesearch.lv1;
+package learn.challenges.bruteforce.lv1;
 
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/86491

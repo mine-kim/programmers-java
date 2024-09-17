@@ -1,4 +1,4 @@
-package learn.challenges.courses.lv2;
+package learn.challenges.bruteforce.lv2;
 
 import java.util.HashSet;
 import java.util.Set;

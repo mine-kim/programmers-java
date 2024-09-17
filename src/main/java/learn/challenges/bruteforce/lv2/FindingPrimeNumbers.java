@@ -1,4 +1,4 @@
-package learn.challenges.exhaustivesearch.lv2;
+package learn.challenges.bruteforce.lv2;
 
 import java.util.HashSet;
 import java.util.Set;

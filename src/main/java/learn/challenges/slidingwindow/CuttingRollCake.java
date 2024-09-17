@@ -1,4 +1,4 @@
-package learn.challenges.courses.lv2;
+package learn.challenges.slidingwindow;
 
 import java.util.*;
 

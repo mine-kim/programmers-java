@@ -1,4 +1,4 @@
-package learn.challenges.exhaustivesearch.lv2;
+package learn.challenges.bruteforce.lv2;
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/84512
  * 제목: 모음사전
