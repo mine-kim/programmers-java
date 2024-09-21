@@ -3,8 +3,8 @@ package learn.challenges.binarysearch;
 import java.util.Arrays;
 
 /**
- * https://school.programmers.co.kr/learn/courses/30/lessons/17681
- * 제목: 비밀 지도
+ * https://school.programmers.co.kr/learn/courses/30/lessons/43238
+ * 제목: 입국 심사
  *
  * Time Complexity:  O(m * log( n * max time)) 이분 탐색의 시간 복잡도, 각 심사대마다 계산을 하므로 한 번의 계산은 O(m)의 시간
  * Space Complexity: O(m): 배열 times를 저장하는 데 필요한 공간
