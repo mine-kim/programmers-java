@@ -1,4 +1,4 @@
-package learn.challenges.bruteforce.lv2;
+package learn.challenges.bruteforce.lv1;
 
 import java.util.ArrayList;
 import java.util.List;

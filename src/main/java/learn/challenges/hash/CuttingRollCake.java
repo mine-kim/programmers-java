@@ -1,4 +1,4 @@
-package learn.challenges.slidingwindow;
+package learn.challenges.hash;
 
 import java.util.*;
 
