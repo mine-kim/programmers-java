@@ -44,7 +44,6 @@ public class SteppingStone {
             } else {
                 right = mid - 1;
             }
-            //System.out.println("mid = " + mid + ", rock = " + removedRocks + " (" + left + " - " + right + ")");
         }
 
         return (int) answer;

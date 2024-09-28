@@ -10,7 +10,7 @@ import java.util.Stack;
  * Space Complexity: O(N) StringBuilder, 배열 사용
  */
 public class MakingBigNumbers {
-    public String solution(String number, int k) {
+    public static String solution(String number, int k) {
         int[] numbers = new int[number.length()];
         for(int i = 0; i < number.length(); i++) {
             numbers[i] = Integer.parseInt(number.substring(i, i + 1));
@@ -36,7 +36,11 @@ public class MakingBigNumbers {
         return answer.toString();
     }
 
-    public String solution2(String number, int k) {
+    /**
+     * Time Complexity: O(N) N은 입력 문자열 number의 길이
+     * Space Complexity: O(N) StringBuilder, Stack 사용
+     */
+    public static String solution2(String number, int k) {
         Stack<Character> stack = new Stack<>();
         int removed = 0; // 제거 횟수
 
@@ -63,11 +67,10 @@ public class MakingBigNumbers {
     }
 
     public static void main(String[] args) {
-        MakingBigNumbers solution = new MakingBigNumbers();
-        solution.solution2("9876543214", 4);
-        solution.solution2("333222111", 2);
-        solution.solution2("1924", 2);
-        solution.solution2("1231234", 3);
-        solution.solution2("4177252841", 4);
+        //System.out.println("solution = " + solution2("9876543214", 4));
+        System.out.println("solution = " + solution2("333222111", 2));
+        System.out.println("solution = " + solution2("1924", 2));
+        System.out.println("solution = " + solution2("1231234", 3));
+        System.out.println("solution = " + solution2("4177252841", 4));
     }
 }

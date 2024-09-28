@@ -10,9 +10,8 @@ import java.util.Arrays;
  * Space Complexity: O(log n) 정렬
  */
 public class Lifeboat {
-    public int solution(int[] people, int limit) {
+    public static int solution(int[] people, int limit) {
         int answer = 0;
-        // 50, 50, 70, 80
         Arrays.sort(people);
         int min = 0;
         int max = people.length - 1;
@@ -24,12 +23,12 @@ public class Lifeboat {
                 max--;
             }
             answer++;
-            if (max == min) answer++;
+            if (max == min) answer++; // 마지막 사람은 혼자서 보트를 탐
         }
         return answer;
     }
     public static void main(String[] args) {
-        Lifeboat solution = new Lifeboat();
-        solution.solution(new int[]{70, 50, 80, 50}, 100);
+        System.out.println(solution(new int[]{70, 50, 80, 50}, 100));
+        System.out.println(solution(new int[]{40, 50, 60, 90}, 100));
     }
 }

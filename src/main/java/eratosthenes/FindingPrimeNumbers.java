@@ -1,4 +1,4 @@
-package learn.challenges.bruteforce.lv2;
+package eratosthenes;
 
 import java.util.HashSet;
 import java.util.Set;

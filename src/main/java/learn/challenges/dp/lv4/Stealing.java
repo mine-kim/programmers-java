@@ -14,12 +14,10 @@ public class Stealing {
         // 첫 번째 집을 털고, 마지막 집은 털지 않는 경우
         int[] dp1 = new int[n];
         dp1[0] = money[0];
-        dp1[1] = Math.max(money[0], money[1]);
+        dp1[1] = Math.max(money[0], money[1]); // 첫번째와 두번째중 더 많은 금액
 
         for (int i = 2; i < n - 1; i++) {
-            int a = dp1[i-1];
-            int b = dp1[i-2] + money[i];
-            dp1[i] = Math.max(dp1[i-1], dp1[i-2] + money[i]);
+            dp1[i] = Math.max(dp1[i-1], dp1[i-2] + money[i]); // 현재 집 + 2개 전의 금액 or 1개전 금액 중에 큰값이 최대 금액
         }
 
         // 첫 번째 집을 털지 않고, 마지막 집을 터는 경우
