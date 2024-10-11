@@ -27,6 +27,11 @@ public class VowelDictionary {
 
     public static void main(String[] args) {
         VowelDictionary solution = new VowelDictionary();
-        solution.solution("AAAE");
+        System.out.println("A = " +  solution.solution("A"));
+        System.out.println("AAAAE = " +  solution.solution("AAAAE"));
+        System.out.println("AAAE = " +  solution.solution("AAAE"));
+        System.out.println("AAAEA = " +  solution.solution("AAAEA"));
+        System.out.println("I = " +  solution.solution("I"));
+        System.out.println("EIO = " +  solution.solution("EIO"));
     }
 }

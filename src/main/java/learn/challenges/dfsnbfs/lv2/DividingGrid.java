@@ -37,6 +37,7 @@ public class DividingGrid {
     private int dfs(int current, int prev, List<Integer>[] graph, int[] counts) {
         counts[current] = 1; // 현재 노드 포함
 
+        //자식 노드의 갯수 구하기
         for (int next : graph[current]) {
             if (next != prev) {
                 counts[current] += dfs(next, current, graph, counts);
@@ -46,6 +47,18 @@ public class DividingGrid {
     }
 
     public static void main(String[] args) {
+        /**
+         *   1
+         *    \
+         *     3 - 2
+         *      |
+         *      4
+         *    / | \
+         *   5  6  7
+         *        / \
+         *       8   9
+         * [9, 1, 8, 6, 1, 1, 3, 1, 1]
+         */
         DividingGrid solution = new DividingGrid();
         solution.solution(9, new int[][]{{1,3},{2,3},{3,4},{4,5},{4,6},{4,7},{7,8},{7,9}});
     }

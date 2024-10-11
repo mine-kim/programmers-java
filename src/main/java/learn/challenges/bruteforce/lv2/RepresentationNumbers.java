@@ -10,12 +10,17 @@ package learn.challenges.bruteforce.lv2;
 public class RepresentationNumbers {
     public int solution(int n) {
         int answer = 0;
-        for (int i = 1; i * i <= n; i++) { // i는 연속된 자연수의 개수
-            if (n % i == 0) {
-                int consecutiveSum = i * (i - 1) / 2; // 연속된 i개의 자연수 합
-                if ((n - consecutiveSum) % i == 0) { // 나머지가 i로 나누어 떨어지면 가능
-                    answer++;
-                }
+        // 연속된 자연수의 합 공식 Sk = kx + k(k−1)/2
+        // S1 = 1x + 1 * (1 - 1) / 2, x = 15
+        // S2 = 2x + 2 * (2 - 1) / 2, x = 7 (7, 8)
+        // S3 = 3x + 3 * (3 - 1) / 2, x = 4 (4, 5, 6)
+        // S5 = 5x + 5 * (5 - 1) / 2, x = 1 (1, 2, 3, 4, 5)
+
+        // 연속된 자연수의 합보다 자연수 n이 크거나 같아야 함
+        for (int k = 1; k * (k + 1) / 2 <= n; k++) {
+            System.out.println("k = " + k);
+            if ((n - k * (k - 1) / 2) % k == 0) {
+                answer++;
             }
         }
         return answer;

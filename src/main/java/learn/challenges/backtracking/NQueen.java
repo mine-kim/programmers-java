@@ -1,7 +1,7 @@
 package learn.challenges.backtracking;
 
 /**
- * https://school.programmers.co.kr/learn/courses/30/lessons/131705
+ * https://school.programmers.co.kr/learn/courses/30/lessons/12952
  * 제목: N-Queen
  *
  * Time Complexity: O(n^3)

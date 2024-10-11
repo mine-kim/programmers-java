@@ -1,4 +1,4 @@
-package eratosthenes;
+package learn.challenges.dfsnbfs.lv3;
 
 import java.util.HashSet;
 import java.util.Set;
