@@ -1,4 +1,4 @@
-package learn.challenges.hash;
+package learn.challenges.hash.lv2;
 
 import java.util.*;
 

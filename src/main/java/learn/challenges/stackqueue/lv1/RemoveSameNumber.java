@@ -2,6 +2,8 @@ package learn.challenges.stackqueue.lv1;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/12906
@@ -12,10 +14,10 @@ import java.util.Deque;
  */
 public class RemoveSameNumber {
     public int[] solution(int []arr) {
-        Deque<Integer> deque = new ArrayDeque<Integer>();
+       Deque<Integer> deque = new ArrayDeque<Integer>();
         deque.offer(arr[0]);
         for (int i = 1; i < arr.length; i++) {
-            if(deque.peekLast() != arr[i]) {
+            if(!deque.isEmpty() && deque.peekLast() != arr[i]) {
                 deque.offer(arr[i]);
             }
         }

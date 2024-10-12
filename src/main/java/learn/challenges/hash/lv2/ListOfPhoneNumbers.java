@@ -1,21 +1,30 @@
 package learn.challenges.hash.lv2;
 
 import java.util.Arrays;
+import java.util.HashMap;
 
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/42577
  * 제목: 전화번호 목록
  *
- * Time Complexity: O(n log n)
- * Space Complexity: O(log n)
+ * Time Complexity: O(n * m) (여기서 n은 전화번호 개수, m은 각 전화번호의 평균 길이)
+ * Space Complexity: O(n) (모든 전화번호를 해시맵에 저장하는 데 필요한 공간)
  */
 public class ListOfPhoneNumbers {
     public boolean solution(String[] phone_book) {
-        Arrays.sort(phone_book); // 전화번호를 정렬
+        HashMap<String, Boolean> map = new HashMap<>();
 
-        for (int i = 0; i < phone_book.length - 1; i++) {
-            if (phone_book[i + 1].startsWith(phone_book[i])) { // 바로 다음 번호와 비교
-                return false;
+        // 모든 전화번호를 해시맵에 저장
+        for (String number : phone_book) {
+            map.put(number, true);
+        }
+
+        // 각 전화번호의 접두사가 해시맵에 있는지 확인
+        for (String number : phone_book) {
+            for (int i = 1; i < number.length(); i++) {
+                if (map.containsKey(number.substring(0, i))) {
+                    return false;
+                }
             }
         }
 
