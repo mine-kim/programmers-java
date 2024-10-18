@@ -1,4 +1,4 @@
-package learn.challenges.dfsnbfs.lv2;
+package learn.challenges.bfs.lv2;
 
 import java.util.ArrayList;
 import java.util.List;

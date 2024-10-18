@@ -1,4 +1,4 @@
-package learn.challenges.dfsnbfs.lv3;
+package learn.challenges.bfs.lv3;
 
 import java.util.Arrays;
 import java.util.Comparator;
