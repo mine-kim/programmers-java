@@ -1,4 +1,4 @@
-package learn.challenges.bfs.lv3;
+package learn.challenges.dfs.lv3;
 
 import java.util.HashSet;
 import java.util.Set;

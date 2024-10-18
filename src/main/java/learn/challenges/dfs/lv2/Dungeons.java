@@ -1,4 +1,4 @@
-package learn.challenges.bfs.lv2;
+package learn.challenges.dfs.lv2;
 
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/87946
