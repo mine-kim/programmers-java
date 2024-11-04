@@ -6,9 +6,9 @@ import java.util.Queue;
 
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/12909
- * 제목: 올바른 괄호
+ * 제목: 다리를 지나는 트럭
  *
- * Time Complexity: O(n) 반복문
+ * Time Complexity: O(n) 각 트럭에 대해 큐에 들어가고 나오는 작업이 한 번씩 수행
  * Space Complexity: O(n) 큐
  */
 public class TruckCrossingBridge {
