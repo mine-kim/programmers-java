@@ -1,7 +1,7 @@
 package learn.challenges.courses.lv2;
 
 /**
- * https://school.programmers.co.kr/learn/courses/30/lessons/12909
+ * https://school.programmers.co.kr/learn/courses/30/lessons/12899
  * 제목: 124 나라의 숫자
  *
  * Time Complexity: O(log₃(n)) StringBuilder 사용으로 메모리 효율성 개선

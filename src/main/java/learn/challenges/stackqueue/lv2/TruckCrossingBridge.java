@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * https://school.programmers.co.kr/learn/courses/30/lessons/12909
+ * https://school.programmers.co.kr/learn/courses/30/lessons/42583
  * 제목: 다리를 지나는 트럭
  *
  * Time Complexity: O(n) 각 트럭에 대해 큐에 들어가고 나오는 작업이 한 번씩 수행
@@ -13,7 +13,7 @@ import java.util.Queue;
  */
 public class TruckCrossingBridge {
     public int solution(int bridge_length, int weight, int[] truck_weights) {
-        Queue<int[]> queue_truck = new LinkedList<>();
+        Queue<int[]> queue_truck = new LinkedList<>(); // [weight, endTime]
         int current_weight = 0;
         int current_second = 0;
         int index = 0;
